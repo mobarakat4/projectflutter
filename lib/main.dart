@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import "package:projectflutter/pages/Itempage.dart";
 import "/../pages/Homepage.dart";
 import "/../pages/Cartpage.dart";
 void main() {
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       routes: {
         '/':(context) => HomePage(),
-        'cartPage':(context) => CartPage()
+        'cartPage':(context) => CartPage(),
+        'itemPage':(context) => ItemPage()
       },
     );
   }

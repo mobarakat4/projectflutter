@@ -63,12 +63,16 @@ class CartItemsSamples extends StatelessWidget {
                 padding: EdgeInsets.symmetric(vertical: 10),
                 
                 child:Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.end,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Icon(
-                      Icons.delete,
-                      color:Colors.red,
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal:8),
+                      child: Icon(
+                        
+                        Icons.delete,
+                        color:Colors.red,
+                      ),
                     ),
                     Row(children: [
                       Container(
